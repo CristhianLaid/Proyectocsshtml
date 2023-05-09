@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(255 228 203 / 82%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head1{
+    list-style-type: none;
+    height: 50%;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+}
+
+.head1 ul {
+    width: 100%;
+    border-radius: 30px;
+    text-align: right;
+}
+
+.head1 li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.head1 a{
+    color: rgb(19, 80, 121);
+    text-decoration: none;
+}
+
+.intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+    margin-left: 200px;
+}
+.intro h1{
+    font-size: 20px;
+}
+
+.intro1{
+    display: flex;
+}
+
+.intro1 iframe{
+    width: 150% ;
+    height: 400px;
+}
+
+.intro2{
+    background-color: rgba(250, 225, 171, 0.664);
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 75px;
+}
+
+.intro2 img{
+    width: 350px;
+    height: 200px;
+}
+
+.intro3{
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(105, 102, 102);
+}
+
+.intro3 span a{
+    text-decoration: none;
+    color: rgb(189, 133, 51);
+}
+
+.xd{
+    color: rgb(199, 70, 70);
+}
+
+.desa{
+    margin: -40px 0px 0px 200px;
+    width: 970px;
+}
+.desa p {
+    background-color: rgb(240, 204, 139);
+}
+
+.desa span p{
+    background-color: transparent;
+    text-align:justify;
+}
+
+.desa img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: black;
+    height: 75px;
+    color: bisque;
+    font-size: x-large;
+    background-position:bottom;
+
+}

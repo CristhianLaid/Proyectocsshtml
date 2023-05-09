@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+header{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 50;
+    
+}
+.logo{
+    height: 200px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.logo1{
+    width: 300px;
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+.logo2{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.logo2:hover{
+    color: blueviolet;
+    text-decoration: underline double;
+}
+
+.xd{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+
+.padre{
+    margin: 190px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.padre .hijo{
+    position: relative;
+    margin-right: -40px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.padre .hijo img{
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s;
+}
+
+.padre .hijo .nombre{
+    position: absolute;
+    display: none;
+}
+
+.padre .hijo:hover .nombre{
+    display: inline-block;
+    background-color: rgb(253, 251, 217);
+    padding: 10px;
+    margin-top: -30px;
+    border-radius: 10PX;
+    
+}
+
+.padre .hijo .nombre::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    left: 40%;
+    bottom: -30px;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid floralwhite;
+    border-right: 10px solid transparent;
+}
+
+.padre.hijo:hover img{
+    transform: translateY(-25px);
+}
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position:sticky;
+    bottom: 0px;
+}
+
+/* cartitas */
+
+.cartita{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    overflow: scroll;
+    background-color: rgb(247, 252, 244);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-inline: 15px;
+    border-radius: 10px;
+    border: 10px ridge black;
+}
+.cartita .cartita_img{
+    
+    height: 250px;
+    width: 250px;
+    background-color: rgb(227, 247, 240);
+}
+
+.cartita .cartita_titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+
+}
+.cartita .cartita_desc{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.cartita .cartita_button a{
+    text-decoration: none;
+}
+
+/* */
+.mew{
+    position: fixed;
+    bottom: 90px;
+    right: 10px;
+    width: 125px;
+}
